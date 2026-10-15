@@ -1,0 +1,8 @@
+a = float(input("Nhap so thuc a: "))
+b = float(input("Nhap so thuc b: "))
+if a>b :
+    print(a,"lon hon",b)
+elif b>a:
+    print(b,"lon hon",a)
+else :
+    print("Hai so bang nhau")

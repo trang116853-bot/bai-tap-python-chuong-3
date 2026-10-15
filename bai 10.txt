@@ -1,0 +1,9 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+canh = sorted([a, b, c, d])
+if canh[0] == canh[1] and canh[2] == canh[3] :
+    print("YES")
+else :
+    print("NO")

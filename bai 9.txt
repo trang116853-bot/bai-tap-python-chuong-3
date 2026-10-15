@@ -1,0 +1,10 @@
+km = float(input("Quang duong taxi di: "))
+if km <= 0 :
+    print("So km khong hop le")
+elif km <=1 :
+    tien = km * 15000
+elif km <= 30 :
+    tien = 1*15000 + (km - 1)*12000
+else :
+    tien = 1*15000 + 29*12000 + (km-30)*10000
+print("Tien cuoc taxi:",tien)

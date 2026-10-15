@@ -1,0 +1,4 @@
+n, m = map(int, input().split())
+khac_mau = min(n, m)
+giong_mau = abs(n-m) // 2
+print(khac_mau, giong_mau)

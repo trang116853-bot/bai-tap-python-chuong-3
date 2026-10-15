@@ -1,0 +1,19 @@
+a = float(input("Nhap canh a: "))
+b = float(input("Nhap canh b: "))
+c = float(input("Nhap canh c: "))
+if a == b == c :
+    print("Tam giac deu")
+else :
+    can = (a == b or b == c or a == c)
+    vuong = (a**2 + b**2 == c**2) or (a**2+ c**2 == b**2) or (b**2 + c**2 == a**2)
+    if vuong and can :
+        print("Tam giac vuong can")
+    elif vuong :
+        print("Tam giac vuong")
+    elif can :
+        print("Tam giac can")
+    else :
+        print ("Tam giac thuong")
+        
+        
+        
