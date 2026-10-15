@@ -26,7 +26,6 @@ def tim_cung_hoang_dao(d, m):
     elif (m == "Feb" and d >= 20) or (m == "Mar" and d <= 20):
         return "PISCES"
 
-# Đọc toàn bộ dữ liệu đầu vào
 input_data = sys.stdin.read().split()
 if input_data:
     T = int(input_data[0])
